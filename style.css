@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#top-menu-list {
+  color: #fff;
+  list-style: none;
+  display: block;
+  font-size: 20px;
+}
+.menu-item {
+  display: inline-block;
+  margin-right: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+#tobar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff !important;
+}
+#landing-section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(78, 172, 221);
+  padding-left: 12%;
+  padding-right: 12%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#landing-section-text {
+  padding-top: 150px;
+}
+#landing-section-heading {
+  font-family: "Dr Sugiyama", cursive;
+  color: #fff;
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 1.1;
+
+  margin: 0;
+}
+#landing-section-desc {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+#btn-download {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+#btn-download:hover {
+  background-color: #fff;
+  color: #000;
+}
+#second-section {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(244, 244, 244);
+  padding: 12%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#second-section-text {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+#second-section-heading {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: rgb(84, 84, 84);
+  margin: 0;
+}
+#second-section-desc {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  margin-top: 24px;
+  color: rgb(126, 126, 126);
+  line-height: 1.4;
+}
+#second-section-quote {
+  font-size: 16.5px;
+  color: rgb(126, 126, 126);
+  font-style: italic;
+  line-height: 1.4;
+  border-left: 8px solid rgb(78, 172, 221);
+  margin: 0px 0px 20px;
+  padding: 0px 20px;
+}
+#btn-hello {
+  background-color: transparent;
+  color: rgb(78, 172, 221);
+  border: 1px solid rgb(78, 172, 221);
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+#btn-hello:hover {
+  background-color: rgb(78, 172, 221);
+  color: #fff;
+}
+#second-section-image {
+  width: 48%;
+  display: inline-block;
+  text-align: end;
+}
+#third-section {
+  width: 100%;
+  height: 90vh;
+  padding: 12%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#third-section-image {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+}
+#third-section-text {
+  display: inline-block;
+  width: 48%;
+}
+#images-first {
+  position: absolute;
+  top: -120px;
+  left: -170px;
+}
+#last-section {
+  width: 100%;
+  background-color: rgb(19, 196, 175);
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#last-section-heading {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 42px;
+  margin: 0;
+}
+#footer {
+  background-color: rgb(244, 244, 244);
+  padding: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.footer-link {
+  color: rgb(84, 84, 84);
+  border: 2px solid rgb(84, 84, 84);
+  padding: 16px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.footer-link:hover {
+  color: #fff;
+  background-color: rgb(84, 84, 84);
+}
+@media (max-width: 720px) {
+  #landing-section-text {
+    padding-top: 40px;
+  }
+  #top-list-menu {
+    text-align: right;
+  }
+  #landing-section-heading {
+    font-size: 48px;
+  }
+  #landing-section-desc {
+    font-size: 18px;
+  }
+  #btn-download {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-right: 36px;
+  }
+  .myfirst {
+    float: right;
+  }
+  #second-section {
+    min-height: 90vh;
+    height: auto;
+  }
+  #second-section-text {
+    width: 100%;
+  }
+  #second-section-image {
+    display: none;
+  }
+  #third-section-image {
+    display: none;
+  }
+  #third-section-text {
+    width: 100%;
+  }
+  #last-section {
+    padding: 60px 0;
+  }
+  .footer-link {
+    margin: 16px;
+  }
+}
